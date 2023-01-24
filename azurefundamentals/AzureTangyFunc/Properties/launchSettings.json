@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "AzureTangyFunc": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7192",
+      "launchBrowser": false
+    }
+  }
+}

@@ -9220,11 +9220,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aanchal\\source\\repos\\AzureFundamentals\\AzureBlobProject\\AzureBlobProject.csproj",
+      "projectUniqueName": "C:\\Users\\Aanchal\\source\\repos\\Amita_Git\\azurefundamentals\\AzureBlobProject\\AzureBlobProject.csproj",
       "projectName": "AzureBlobProject",
-      "projectPath": "C:\\Users\\Aanchal\\source\\repos\\AzureFundamentals\\AzureBlobProject\\AzureBlobProject.csproj",
+      "projectPath": "C:\\Users\\Aanchal\\source\\repos\\Amita_Git\\azurefundamentals\\AzureBlobProject\\AzureBlobProject.csproj",
       "packagesPath": "C:\\Users\\Aanchal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aanchal\\source\\repos\\AzureFundamentals\\AzureBlobProject\\obj\\",
+      "outputPath": "C:\\Users\\Aanchal\\source\\repos\\Amita_Git\\azurefundamentals\\AzureBlobProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aanchal\\AppData\\Roaming\\NuGet\\NuGet.Config",
