@@ -27,8 +27,7 @@ namespace AzureFunctionTangyWeb.Controllers
 
             using (var content = new StringContent(
                 JsonConvert.SerializeObject(salesRequest)
-                , System.Text.Encoding.UTF8
-                , "application/json"))
+                , System.Text.Encoding.UTF8, "application/json"))
             {
                 //call azure function and pass the content
                 HttpResponseMessage httpResponse

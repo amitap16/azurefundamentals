@@ -5,9 +5,9 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureBlobProject", "AzureBlobProject\AzureBlobProject.csproj", "{A1F855FA-6CF8-4EC9-8EBB-3315C6A2145E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionTangyWeb", "AzureFunctionTangyWeb\AzureFunctionTangyWeb.csproj", "{32FF51DE-2BFC-43CF-AA24-BA369858E6BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctionTangyWeb", "AzureFunctionTangyWeb\AzureFunctionTangyWeb.csproj", "{32FF51DE-2BFC-43CF-AA24-BA369858E6BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureTangyFunc", "AzureTangyFunc\AzureTangyFunc.csproj", "{574CE3B2-3A5A-4711-98FD-FB6444ED07D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureTangyFunc", "AzureTangyFunc\AzureTangyFunc.csproj", "{574CE3B2-3A5A-4711-98FD-FB6444ED07D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
