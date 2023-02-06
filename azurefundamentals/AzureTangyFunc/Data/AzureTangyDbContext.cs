@@ -1,4 +1,4 @@
-﻿using AzureTangyFunc.Models;
+﻿/*using AzureTangyFunc.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace AzureTangyFunc.Data
@@ -20,3 +20,4 @@ namespace AzureTangyFunc.Data
         }
     }
 }
+*/

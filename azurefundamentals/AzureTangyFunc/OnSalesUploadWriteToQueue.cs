@@ -13,21 +13,31 @@ namespace AzureTangyFunc
 {
     public static class OnSalesUploadWriteToQueue
     {
+        private const string LOG_PREFIX = $"{nameof(OnSalesUploadWriteToQueue)}";
+
         [FunctionName("OnSalesUploadWriteToQueue")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             [Queue("SalesRequestInBound", Connection = "AzureWebJobsStorage")] IAsyncCollector<SalesRequest> salesRequestQueue,
             ILogger log)
         {
-            log.LogInformation($"Sales request received by {nameof(OnSalesUploadWriteToQueue)} function.");
+            log.LogInformation($"{LOG_PREFIX} function: Sales request received.");
 
-            string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+            string requestBody = await new StreamReader(req?.Body).ReadToEndAsync();
+            if (string.IsNullOrEmpty(requestBody))
+            {
+                log.LogInformation($"{LOG_PREFIX} function: Sales request's HttpRequest Body is empty!");
+                return new EmptyResult();
+            }
+
             SalesRequest data = JsonConvert.DeserializeObject<SalesRequest>(requestBody);
+            log.LogInformation($"Sales request data: {data}.");
 
             //Push data to queue
-            await salesRequestQueue.AddAsync(data);
+            await salesRequestQueue?.AddAsync(data);
 
             string responseMessage = $"Sales Request has been received for {data.Name}.";
+            log.LogInformation($"{LOG_PREFIX} function: {nameof(responseMessage)} - {responseMessage}.");
             return new OkObjectResult(responseMessage);
         }
     }

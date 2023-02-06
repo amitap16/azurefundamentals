@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9mZjcbfTQQrlatrK5Ps1nxSZ7ftVNXZMzMoh0Ih+K9hMYTKiRmPxDFWkB4khs2dBv9f9DqToQm0Ck51CZnBAhA==",
+  "dgSpecHash": "xVGXhqFNEBoMuK/VLhTFVnsdF9YYAkIQiU7zsz7QKjZYl7OTFPX8wHwbBAW/ERlIHcaYQB8EYcoZGlY8Rd2xcg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aanchal\\source\\repos\\Amita_Git\\azurefundamentals\\AzureFunctionTangyWeb\\AzureFunctionTangyWeb.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,7 @@
     "C:\\Users\\Aanchal\\.nuget\\packages\\microsoft.extensions.hosting\\2.1.0\\microsoft.extensions.hosting.2.1.0.nupkg.sha512",
     "C:\\Users\\Aanchal\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.1.0\\microsoft.extensions.hosting.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\Aanchal\\.nuget\\packages\\microsoft.extensions.logging\\2.1.1\\microsoft.extensions.logging.2.1.1.nupkg.sha512",
-    "C:\\Users\\Aanchal\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.1.1\\microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\Aanchal\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Aanchal\\.nuget\\packages\\microsoft.extensions.logging.configuration\\2.1.0\\microsoft.extensions.logging.configuration.2.1.0.nupkg.sha512",
     "C:\\Users\\Aanchal\\.nuget\\packages\\microsoft.extensions.options\\2.1.1\\microsoft.extensions.options.2.1.1.nupkg.sha512",
     "C:\\Users\\Aanchal\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\2.1.0\\microsoft.extensions.options.configurationextensions.2.1.0.nupkg.sha512",
