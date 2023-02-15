@@ -1,4 +1,4 @@
-//using AzureTangyFunc.Data;
+using AzureTangyFunc.Data;
 using AzureTangyFunc.Models;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Extensions.Logging;
@@ -7,12 +7,12 @@ namespace AzureTangyFunc
 {
     public class OnQueueTriggerUpdateDatabase
     {
-        /* private readonly AzureTangyDbContext _dbContext;
+        private readonly AzureTangyDbContext _dbContext;
 
-         public OnQueueTriggerUpdateDatabase(AzureTangyDbContext dbContext)
-         {
-             _dbContext = dbContext;
-         }
+        public OnQueueTriggerUpdateDatabase(AzureTangyDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
 
         [FunctionName("OnQueueTriggerUpdateDatabase")]
         public void Run([QueueTrigger("SalesRequestInBound", Connection = "AzureWebJobsStorage")] SalesRequest myQueueItem,
@@ -20,8 +20,17 @@ namespace AzureTangyFunc
         {
             log.LogInformation($"C# Queue trigger function processed: {myQueueItem}");
             myQueueItem.Status = "Submitted";
-            //_dbContext.SalesRequests.Add(myQueueItem);
-            //_dbContext.SaveChanges();
+            _dbContext.SalesRequests.Add(myQueueItem);
+            _dbContext.SaveChanges();
+        }
+
+        /*
+        [FunctionName("OnQueueTriggerUpdateDatabase")]
+        public static void Run([QueueTrigger("SalesRequestInBound", Connection = "AzureWebJobsStorage")] string myQItem,
+            ILogger logger)
+        {
+            logger.LogInformation($"C# Queue trigger function processed: {myQItem}");
+
         }*/
     }
 }

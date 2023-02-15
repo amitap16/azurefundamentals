@@ -2,7 +2,8 @@
   "IsEncrypted": false,
   "Values": {
     "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=azuredotnetcore6mastery;AccountKey=0HhJ/TFP0eZDDMZ9T9ARR0klL18huMm5kRsaTYQ9jKt6ixYlRWiqJlp21KyN31s+wJJWa0RXOkve+AStE355Ww==;EndpointSuffix=core.windows.net",
-    "FUNCTIONS_WORKER_RUNTIME": "dotnet"//,
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "AzureSqlDatabase": "Data Source=Aanchal\\SQLEXPRESS;Initial Catalog=azuredotnetcore6masterysql;Integrated Security=True;TrustServerCertificate=True"
     //"AzureSqlDatabase": "Server=tcp:azuredotnetcore6masterysqlserver.database.windows.net,1433;Initial Catalog=azuredotnetcore6masterysql;Persist Security Info=False;User ID=admin-sql;Password=Test1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   }
 }
