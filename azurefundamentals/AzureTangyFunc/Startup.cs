@@ -19,9 +19,8 @@ namespace AzureTangyFunc
         public void Configure(IWebJobsBuilder builder)
         {
             string connStr = Environment.GetEnvironmentVariable("AzureSqlDatabase");
-            builder.Services.AddDbContext<AzureTangyDbContext>(
-                options => options.UseSqlServer(connStr));
-            builder.Services.BuildServiceProvider(); 
+            builder.Services.AddDbContext<AzureTangyDbContext>(options => options.UseSqlServer(connStr));
+            builder.Services.BuildServiceProvider();
         }
     }
 }

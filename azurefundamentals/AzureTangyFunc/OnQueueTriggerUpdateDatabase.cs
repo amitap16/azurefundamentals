@@ -23,14 +23,5 @@ namespace AzureTangyFunc
             _dbContext.SalesRequests.Add(myQueueItem);
             _dbContext.SaveChanges();
         }
-
-        /*
-        [FunctionName("OnQueueTriggerUpdateDatabase")]
-        public static void Run([QueueTrigger("SalesRequestInBound", Connection = "AzureWebJobsStorage")] string myQItem,
-            ILogger logger)
-        {
-            logger.LogInformation($"C# Queue trigger function processed: {myQItem}");
-
-        }*/
     }
 }

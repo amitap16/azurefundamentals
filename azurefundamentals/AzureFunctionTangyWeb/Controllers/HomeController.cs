@@ -1,4 +1,6 @@
-﻿using AzureFunctionTangyWeb.Models;
+﻿using Azure.Storage.Blobs;
+using Azure.Storage.Blobs.Models;
+using AzureFunctionTangyWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System.Diagnostics;
@@ -8,11 +10,13 @@ namespace AzureFunctionTangyWeb.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        static readonly HttpClient _httpClient = new HttpClient();
+        private readonly BlobServiceClient _blobServiceClient;
+        static readonly HttpClient _httpClient = new();
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, BlobServiceClient blobServiceClient)
         {
             _logger = logger;
+            _blobServiceClient = blobServiceClient;
         }
 
         public IActionResult Index()
@@ -21,7 +25,7 @@ namespace AzureFunctionTangyWeb.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Index(SalesRequest salesRequest)
+        public async Task<ActionResult> Index(SalesRequest salesRequest, IFormFile file)
         {
             salesRequest.Id = Guid.NewGuid().ToString();
 
@@ -35,6 +39,18 @@ namespace AzureFunctionTangyWeb.Controllers
 
                 string returnResult = httpResponse.Content.ReadAsStringAsync().Result;
             }
+            if (file != null)
+            {
+                string fileName = salesRequest.Id + Path.GetExtension(file.FileName);
+                BlobContainerClient blobContainerClient = _blobServiceClient.GetBlobContainerClient("functionsalesrep");
+                var blobClient = blobContainerClient.GetBlobClient(fileName);
+                var httpHeaders = new BlobHttpHeaders() { ContentType = file.ContentType };
+
+                await blobClient.UploadAsync(file.OpenReadStream(), httpHeaders);
+
+                return View();
+            }
+
             return RedirectToAction(nameof(Index));
         }
 
