@@ -40,12 +40,15 @@ namespace AzureTangyFunc
             #endregion
 
             #region Send Email
-            var message = new SendGridMessage();
-            message.AddTo("Edu4kid18@outlook.com");
-            message.AddContent("text/html", $"Processing completed for {counter} records");
-            message.SetFrom(new EmailAddress("aanchu10@outlook.com"));
-            message.SetSubject("Azure Tangy Processing successful");
-            await messageCollector.AddAsync(message);
+            if (counter > 0)
+            {
+                var message = new SendGridMessage();
+                message.AddTo("Edu4kid18@outlook.com");
+                message.AddContent("text/html", $"Processing completed for {counter} records");
+                message.SetFrom(new EmailAddress("aanchu10@outlook.com"));
+                message.SetSubject("Azure Tangy Processing successful");
+                await messageCollector.AddAsync(message);
+            }
             #endregion
         }
     }

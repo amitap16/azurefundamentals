@@ -15,6 +15,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Aanchal\source\repos\Amita_Git\azurefundamentals\AzureFunctionTangyWeb
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Aanchal/source/repos/Amita_Git/azurefundamentals/AzureFunctionTangyWeb/Views/Grocery/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvY2VyeVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aanchal/source/repos/Amita_Git/azurefundamentals/AzureFunctionTangyWeb/Views/Grocery/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvY2VyeVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aanchal/source/repos/Amita_Git/azurefundamentals/AzureFunctionTangyWeb/Views/Grocery/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvY2VyeVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aanchal/source/repos/Amita_Git/azurefundamentals/AzureFunctionTangyWeb/Views/Grocery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JvY2VyeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Aanchal/source/repos/Amita_Git/azurefundamentals/AzureFunctionTangyWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
