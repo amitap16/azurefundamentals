@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctionTangyWeb", "Az
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureTangyFunc", "AzureTangyFunc\AzureTangyFunc.csproj", "{574CE3B2-3A5A-4711-98FD-FB6444ED07D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSpookyLogic", "AzureSpookyLogic\AzureSpookyLogic.csproj", "{060FDD2F-9E10-4728-90F4-EDA323CD27FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{574CE3B2-3A5A-4711-98FD-FB6444ED07D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{574CE3B2-3A5A-4711-98FD-FB6444ED07D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{574CE3B2-3A5A-4711-98FD-FB6444ED07D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{060FDD2F-9E10-4728-90F4-EDA323CD27FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060FDD2F-9E10-4728-90F4-EDA323CD27FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060FDD2F-9E10-4728-90F4-EDA323CD27FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060FDD2F-9E10-4728-90F4-EDA323CD27FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
