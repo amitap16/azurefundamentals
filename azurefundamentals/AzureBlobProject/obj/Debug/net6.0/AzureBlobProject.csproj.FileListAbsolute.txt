@@ -245,7 +245,6 @@ C:\Users\Aanchal\source\repos\AzureFundamentals\AzureBlobProject\bin\Debug\net6.
 C:\Users\Aanchal\source\repos\AzureFundamentals\AzureBlobProject\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Aanchal\source\repos\AzureFundamentals\AzureBlobProject\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Aanchal\source\repos\Amita_Git\azurefundamentals\AzureBlobProject\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\Aanchal\source\repos\Amita_Git\azurefundamentals\AzureBlobProject\bin\Debug\net6.0\appsettings.json
 C:\Users\Aanchal\source\repos\Amita_Git\azurefundamentals\AzureBlobProject\bin\Debug\net6.0\AzureBlobProject.staticwebassets.runtime.json
 C:\Users\Aanchal\source\repos\Amita_Git\azurefundamentals\AzureBlobProject\bin\Debug\net6.0\AzureBlobProject.exe
 C:\Users\Aanchal\source\repos\Amita_Git\azurefundamentals\AzureBlobProject\bin\Debug\net6.0\AzureBlobProject.deps.json

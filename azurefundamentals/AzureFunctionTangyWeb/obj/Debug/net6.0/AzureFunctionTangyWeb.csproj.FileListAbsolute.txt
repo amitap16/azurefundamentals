@@ -1,5 +1,4 @@
 C:\Users\Aanchal\source\repos\Amita_Git\azurefundamentals\AzureFunctionTangyWeb\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\Aanchal\source\repos\Amita_Git\azurefundamentals\AzureFunctionTangyWeb\bin\Debug\net6.0\appsettings.json
 C:\Users\Aanchal\source\repos\Amita_Git\azurefundamentals\AzureFunctionTangyWeb\bin\Debug\net6.0\AzureFunctionTangyWeb.staticwebassets.runtime.json
 C:\Users\Aanchal\source\repos\Amita_Git\azurefundamentals\AzureFunctionTangyWeb\bin\Debug\net6.0\AzureFunctionTangyWeb.exe
 C:\Users\Aanchal\source\repos\Amita_Git\azurefundamentals\AzureFunctionTangyWeb\bin\Debug\net6.0\AzureFunctionTangyWeb.deps.json
