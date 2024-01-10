@@ -10,10 +10,10 @@ namespace Sqlapp.Services
     public class CourseService
     {
         // Ensure to change the below variables to reflect the connection details for your database
-        private static string db_source = "az305demodbserver.database.windows.net";
+        private static string db_source = "demsqldbserver.database.windows.net";
         private static string db_user = "demouser";
         private static string db_password = "dem0user#1234";
-        private static string db_database = "az305demodb";
+        private static string db_database = "demosqldb";
 
         private SqlConnection GetConnection()
         {
